@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artista</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="assets/css/IMG/descarga.jpg" alt="logo" class="logo-img">
+        </a>
+        </div>
+        <nav>
+            <a href="#artista">Artista</a>
+            <a href="#musica">Música</a>
+            <a href="#galeria">Galería</a>
+            <a href="#lugar">Lugar</a>
+            <a href="#boleteria">Boletería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <aside class="buscador">
+            <input type="search" placeholder="Buscar..." name="Buscar" style="height: 30px;">
+        </aside>
+    </header>
+    <!--Informacion del artista-->
+    <section id="artista">
+        <div>
+            <h1>Guns  N' Roses</h1>
+            <p>Damas y caballeros, prepárense para una noche de pura energía y rock legendario. Directamente desde Los Ángeles, una de las bandas más icónicas de la historia del rock está aquí para llevarnos a través de décadas de éxitos. Con su inconfundible estilo, cargado de riffs potentes, solos incendiarios y una actitud rebelde, llega Guns N' Roses. Esta noche, la voz inigualable de Axl Rose y la guitarra de Slash nos transportarán con clásicos como "Sweet Child O' Mine," "Welcome to the Jungle" y muchos más. ¡Prepárense para un espectáculo inolvidable que sacudirá el escenario!</p>        
+        </div>
+    </section>
+    <section id="Videos">
+        <h2>Videos</h2>
+        <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Iw_Aufh5p6E?si=pwtSATXkE2uLNyQt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </p>
+    </section>
+    <section id="musica">
+        <h2>Música</h2>
+        <p>
+        <audio controls>
+            <source src="assets/css/audio/Guns N' Roses - Welcome To The Jungle - GunsNRosesVEVO (youtube).mp3">
+            <source src="assets/css/audio/Guns N' Roses - You Could Be Mine (Visualizer) - GunsNRosesVEVO (youtube).mp3">
+        </audio>
+        </p>
+        <hr>
+    </section>
+    <section id="galeria">
+        <h2>Galería de imágenes</h2>
+    </section>
+        <div class="contenedor-img">
+            <img src="assets/css/IMG/Gun n roses.jpg" alt="img">
+            <img src="assets/css/IMG/Guns n roses 2.jpg" alt="img 1">
+            <img src="assets/css/IMG/Guns n roses 3.jpg" alt="img 2">
+        </div>
+    <section id="lugar">
+        <h2>Información del lugar</h2>
+        <p>
+            Un concierto de Guns N' Roses en el Parque del río de Medellín sería una experiencia inolvidable. El icónico parque, situado en el corazón de la ciudad, se transformaría en un escenario vibrante para recibir a esta legendaria banda de rock. La multitud, emocionada y eufórica, corearía clásicos como "Sweet Child O' Mine", "Welcome to the Jungle" y "November Rain", mientras la energía del rock llenaría el aire. Las luces y el sonido envolvente harían eco en los edificios históricos del parque, creando una atmósfera única. Sería un evento histórico para la ciudad, combinando la potencia de una banda global con el alma cultural de Medellín.</p>
+        <h3><b>¿Cómo llegar?</b></h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1472666145187!2d-75.58641712065432!3d6.244315200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a8cf9499c3%3A0x26e05ca1fa6dd6b9!2sCl.%2040%20%2365-33%2C%20Laureles%20-%20Estadio%2C%20Medell%C3%ADn%2C%20Laureles%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1729711486908!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <hr>
+    </section>
+    <section id="boleteria">
+        <h2>Información de la Boletería</h2>
+        <p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Sector</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VIP</td>
+                    <td>$200.000</td>
+                </tr>
+                <tr>
+                    <td>Preferencial</td>
+                    <td>$150.000</td>
+                </tr>
+                <tr>
+                    <td>General</td>
+                    <td>$100.000</td>
+                </tr>
+            </tbody>
+        </table></p>
+    </section>
+    <br>
+    <br>
+    <hr>
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <form class="formulario"">
+       <div class="in"> 
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="" id="Nombre" required placeholder="Escriba su nombre">
+        <br>
+        <label for="Correo electronico">Correo electrónico</label>
+        <input type="email" name="" id="Correo electronico" required placeholder="Correo electrónico">
+        <br>    
+        <label for="Mensaje">Mensaje</label>
+        <br>
+        <textarea type="mensaje" name="" id="Mensaje" cols="30" rows="5" maxlength="200" required placeholder="Ponga su mensaje"></textarea>
+        <br>
+       </div>
+
+       <div class="enviar">
+       <input type="button" value="Enviar">
+       </div>
+
+        </form>
+    <section>
+    <section>
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/gunsnroses/">
+                    <img src="assets/css/IMG/Instagram.png" alt="" width="20px">
+                </a>
+                <a href="https://www.facebook.com/gunsnroses/?locale=es_LA">
+                    <img src="assets/css/IMG/Facebook.jpg" alt="" width="20px" >
+                </a>
+                </a>
+                <a href="https://twitter.com/gunsnroses?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <img src="assets/css/IMG/X.png" alt="" width="20px">
+                </a>
+            </div>
+            <div class="copyright">
+                <p>&copy;2024 Concierto en Parques del Río. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.logo img{
+    height: 70px;
+}
+
+a{
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+}
+
+#artista{
+    display: flex;        
+    text-align: center;         
+    margin: 80px 0;     
+    text-align: justify;  
+}
+
+#artista h1{
+    text-align:center ;
+}
+#artista p{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#Videos h2{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -35px;
+}
+#Videos p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#musica h2{
+    text-align: center;
+    padding-bottom: 20px; 
+}
+#musica p{
+    text-align: center;
+    padding-bottom: 50px;
+}
+hr{
+    border: 0;    
+    height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+#galeria h2{
+    text-align: center;
+}
+
+.contenedor-img{
+    display: flex;                      
+    justify-content: center;   
+    flex-wrap: wrap;
+    gap: 40px;                   
+    margin: 20px;
+    padding-bottom: 40px;
+
+      
+}                 
+.contenedor-img img{
+    border: 2px;             
+    border-radius: 10px;                
+    width: 300px;                       
+    height: 170px;
+    box-shadow:  5px 5px  10px rgba(0,0,0,0.5);
+
+}
+
+#lugar h2{
+    text-align: center;
+    padding-bottom: 20px;
+}            
+#lugar p{
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#lugar h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#lugar iframe{
+    display: block;          
+    margin: 20px auto;       
+}
+hr{
+    border: 0;    
+    height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+#boleteria h2{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+#boleteria table{
+    margin: 0 auto;
+    width: 40%;
+    border-collapse:collapse ;
+    
+}
+th{
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.1);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td{
+    padding: 5px;
+}
+
+hr{
+    border: 0;    
+    height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+footer{
+    background-color: #333; 
+    text-align: center;
+    color: white;
+    margin-top: 25PX;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+    .social-icons img {
+
+    width: 20px; 
+    height: 20px;
+}
+.copyright p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: white;
+}
+
+.buscador{
+    padding-right: 40px;
+
+}
+
+.contacto h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.contacto input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.in input {
+    height: 35px;
+    width: 300px;
+}
+
+.in textarea {
+    height: 70px;
+    width: 300px;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: auto;
+    border-radius: 5px;
+}
+/* .formulario{ */
+    
+/* } */
